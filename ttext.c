@@ -374,9 +374,9 @@ void cSwReceiver::Action() {
      }
 }
 
-cSwReceiver::cSwReceiver(cChannel * Channel) : cReceiver(Channel->GetChannelID(),
-   100, Channel->Tpid()), cThread("ttext") {
+cSwReceiver::cSwReceiver(cChannel * Channel) : cReceiver(Channel, 100), cThread("ttext") {
 
+   AddPid(Channel->Tpid());
    stopped = fuzzy = false;
    channel = Channel;
    buffer  = new cRingBufferLinear(MEGABYTE(1),184);

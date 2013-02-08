@@ -36,12 +36,12 @@ protected:
     while (Running()) cCondWait::SleepMs(5);
     }; /*TODO: check here periodically for lock and wether we got any data!*/
 public:
-  cScanReceiver(tChannelID ChannelID, int AnyPid);
+  cScanReceiver(const cChannel* chan, int AnyPid);
   virtual ~cScanReceiver() {cReceiver::Detach(); };
   };
 
-cScanReceiver::cScanReceiver(tChannelID ChannelID, int AnyPid) :
-     cReceiver(ChannelID, 99, AnyPid), cThread("dummy receiver") { }
+cScanReceiver::cScanReceiver(const cChannel* chan, int AnyPid) :
+     cReceiver(chan, 99), cThread("dummy receiver") { }
 
 ///!-----------------------------------------------------------------
 ///!  v 0.0.5, store state in lastState if different and print state
@@ -144,7 +144,7 @@ void cStateMachine::Action(void) {
          ScannedTransponders.Add(ScannedTransponder);
 
          dev->SwitchChannel(Transponder, false);
-         aReceiver = new cScanReceiver(Transponder->GetChannelID(), 99);
+         aReceiver = new cScanReceiver(Transponder, 99);
          dev->AttachReceiver(aReceiver);
 
          cCondWait::SleepMs(1000);
