@@ -1,0 +1,114 @@
+# VDR plugin language source file.
+# Copyright (C) 2007 Klaus Schmidinger <kls@cadsoft.de>
+# This file is distributed under the same license as the VDR package.
+# Valdemaras Pipiras <varas@ambernet.lt>, 2015
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: VDR 1.5.7\n"
+"Report-Msgid-Bugs-To: <see README>\n"
+"POT-Creation-Date: 2013-02-08 09:45+0100\n"
+"PO-Revision-Date: 2015-02-12 23:15+0200\n"
+"Language-Team: Lithuanian <vdr@linuxtv.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "AUTO"
+msgstr "AUTO"
+
+msgid "ALL (slow)"
+msgstr "Visi (lėtas)"
+
+msgid "Off"
+msgstr "Išjungta"
+
+msgid "AUTO/OFF"
+msgstr "AUTO/Išjungta"
+
+msgid "AUTO/ON"
+msgstr "AUTO/Įjungta"
+
+msgid "Setup"
+msgstr "Nustatymai"
+
+msgid "General"
+msgstr "Pagrindinis"
+
+msgid "Source Type"
+msgstr "Šaltinio tipas"
+
+msgid "verbosity"
+msgstr "lygis"
+
+msgid "logfile"
+msgstr "log failas"
+
+msgid "Channels"
+msgstr "Kanalai"
+
+msgid "TV channels"
+msgstr "TV kanalai"
+
+msgid "Radio channels"
+msgstr "Radio kanalai"
+
+msgid "FTA channels"
+msgstr "Nekoduoti kanalai"
+
+msgid "Scrambled channels"
+msgstr "Koduoti kanalai"
+
+msgid "HD channels"
+msgstr "HD kanalai"
+
+msgid "Cable and Terrestrial"
+msgstr "Kabelinė ir Eterinė"
+
+msgid "Country"
+msgstr "Šalis"
+
+msgid "Cable Inversion"
+msgstr "Inversija"
+
+msgid "Cable Symbolrate"
+msgstr "Simbolių dažnis"
+
+msgid "Cable modulation"
+msgstr "Moduliacija"
+
+msgid "Terr  Inversion"
+msgstr "Inversija"
+
+msgid "ATSC  Type"
+msgstr "ATSC tipas"
+
+msgid "Satellite"
+msgstr "Palydovinė"
+
+msgid "DVB-S2"
+msgstr "DVB-S2"
+
+msgid "Stop"
+msgstr "Stabdyti"
+
+msgid "Start"
+msgstr "Pradėti"
+
+msgid "Settings"
+msgstr "Nustatymai"
+
+msgid "Status"
+msgstr "Statusas"
+
+msgid "Log Messages"
+msgstr "Įrašinėti žinutes"
+
+msgid "CANNOT SCAN - No device!"
+msgstr "NEGALI SKANUOTI - Nėra įrenginio!"
+
+msgid "CANNOT SCAN - Timers active!"
+msgstr "NEGALI SKANUOTI - Įjungti laikmačiai!"
+
+msgid "CANNOT SCAN - Timers on Schedule!"
+msgstr "NEGALI SKANUOTI - Programoje nustatyti laikmačiai!"
